@@ -17,17 +17,27 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.10.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.appium</groupId>
+      <artifactId>java-client</artifactId>
+      <version>9.2.2</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.20.0</version>
     </dependency>
 
-
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <groupId>ch.racic.testing</groupId>
+      <artifactId>test-configuration-manager</artifactId>
+      <version>0.16.0</version>
     </dependency>
 
   </dependencies>
